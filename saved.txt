@@ -1,0 +1,9 @@
+A: 2
+B: 4
+Actual Answer: 8
+
+Pass 0 -- Binary P: 0000100 -- Actual P: 4
+Pass 1 -- Binary P: 0000010 -- Actual P: 2
+Pass 2 -- Binary P: 0100001 -- Actual P: -31
+Pass 3 -- Binary P: 0010000 -- Actual P: 16
+Calculated Answer: 8
