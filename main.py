@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description = "Multiply A and B with Booth's Al
 # Define args
 parser.add_argument("-A", type=int, required=True, help = "multiplicand")
 parser.add_argument("-B", type=int, required=True, help = "multiplier")
-parser.add_argument("--s", dest = "s", action='store_true', help = "1 to save, 0 to not save")
+parser.add_argument("--s", dest = "s", action='store_true', help = "flag to save instead of print to console")
  
 # Read args
 args = parser.parse_args()
